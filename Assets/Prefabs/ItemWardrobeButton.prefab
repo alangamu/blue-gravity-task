@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3510468348555462460}
   - component: {fileID: 8379896026714282327}
   m_Layer: 5
-  m_Name: ItemButton
+  m_Name: ItemWardrobeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839da1099a6013c4d96dbbed3587b5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _activeClothesItem: {fileID: 11400000, guid: 84d88b881fce6a24dad19fd3e3579613, type: 2}
+  _activeClothesItem: {fileID: 11400000, guid: 29b1c303bcad102439ec60c7b74691da, type: 2}
   _selector: {fileID: 5991573626855902864}
 --- !u!1 &2851001691205541210
 GameObject:

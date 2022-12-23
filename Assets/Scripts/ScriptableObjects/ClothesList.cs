@@ -27,11 +27,13 @@ namespace BlueGravity.Scripts.ScriptableObjects
             return Items.FindAll(x => x.ClothesType == type);
         }
 
-        public void SwapClothes(ClothesItem removeClothesItem, ClothesItem addClothesItem)
+        public ClothesItem SwapClothesByType(ClothesItem addClothesItem)
         {
-            Remove(removeClothesItem);
+            ClothesItem oldItem = Items.Find(x => x.ClothesType == addClothesItem.ClothesType);
+            Remove(oldItem);
             Add(addClothesItem);
             OnListChanged?.Invoke();
+            return oldItem;
         }
 
         private void Add(ClothesItem clothesItem)

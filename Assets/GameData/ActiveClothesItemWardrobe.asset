@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 488d6eae6c212544293c12af9d5c10b3, type: 3}
-  m_Name: Wardrobe
+  m_Script: {fileID: 11500000, guid: 7679ac0c4384f194db2306d26f4c3073, type: 3}
+  m_Name: ActiveClothesItemWardrobe
   m_EditorClassIdentifier: 
-  Items:
-  - {fileID: 11400000, guid: 30f7f3bc405a95142987ed2d11147f25, type: 2}
-  - {fileID: 11400000, guid: 5e762764f84a40941b735401f8103e8a, type: 2}
+  _value: {fileID: 0}
