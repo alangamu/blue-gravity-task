@@ -31,7 +31,7 @@ namespace BlueGravity.Scripts
         {
             TryGetComponent(out _rb2d);
             TryGetComponent(out _animator);
-            _canWalk = _canWalkVariable.Value;
+            _canWalk = true;
         }
 
         private void CanWalkVariableOnValueChanged(bool canWalk)
@@ -47,8 +47,6 @@ namespace BlueGravity.Scripts
                 float moveY = Input.GetAxisRaw("Vertical");
                 _moveInput = new Vector2(moveX, moveY).normalized;
 
-                //_animator.SetFloat("Horizontal", moveX);
-                //_animator.SetFloat("Vertical", moveY);
                 _animator.SetFloat("Speed", _moveInput.magnitude);
 
                 if (moveX < 0 && _isFacingRight)

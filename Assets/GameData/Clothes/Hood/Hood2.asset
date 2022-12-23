@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
+  m_Name: Hood2
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
+  ClothesSpriteMain: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
+  ClothesSpriteLeft: {fileID: 0}
+  ClothesSpriteRight: {fileID: 0}
+  ClothesType: {fileID: 11400000, guid: 31cd1180a9b9a964eba5a83b9f9d1a2a, type: 2}
+  SellingPrice: 21.25
+  BuyingPrice: 32

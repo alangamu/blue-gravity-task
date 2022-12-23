@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
+  m_Name: Hands5
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: 767ae73862a0c7c418959a63daafaae9, type: 3}
+  ClothesSpriteMain: {fileID: 0}
+  ClothesSpriteLeft: {fileID: 21300000, guid: 767ae73862a0c7c418959a63daafaae9, type: 3}
+  ClothesSpriteRight: {fileID: 21300000, guid: bbec2f9af2fefd4459cd1f041e6850cf, type: 3}
+  ClothesType: {fileID: 11400000, guid: 6e2b77cff86b7024c8b4b6c330ed800a, type: 2}
+  SellingPrice: 9
+  BuyingPrice: 18
