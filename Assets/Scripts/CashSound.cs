@@ -1,7 +1,7 @@
 ﻿using BlueGravityTest.Scripts.ScriptableObjects;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class CashSound : MonoBehaviour
     {
