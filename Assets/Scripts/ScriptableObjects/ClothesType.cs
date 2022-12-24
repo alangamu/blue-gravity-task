@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BlueGravity.Scripts.ScriptableObjects
+namespace BlueGravityTest.Scripts.ScriptableObjects
 {
     [CreateAssetMenu(menuName = "Clothes/Type")]
     public class ClothesType : ScriptableObject

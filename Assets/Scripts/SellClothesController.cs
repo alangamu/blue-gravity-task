@@ -1,12 +1,14 @@
-﻿using BlueGravity.Scripts.ScriptableObjects;
+﻿using BlueGravityTest.Scripts.ScriptableObjects;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class SellClothesController : MonoBehaviour
     {
+        [SerializeField]
+        private ClothesTypeVariable _activeClothesType;
         [SerializeField]
         private ClothesVariable _activeClothesItemWardrobe;
         [SerializeField]
@@ -31,11 +33,18 @@ namespace BlueGravity.Scripts
         private void OnEnable()
         {
             _activeClothesItemWardrobe.OnValueChanged += ActiveClothesItemWardrobeChanged;
+            _activeClothesType.OnValueChanged += ActiveClothesTypeChanged;
         }
 
         private void OnDisable()
         {
             _activeClothesItemWardrobe.OnValueChanged -= ActiveClothesItemWardrobeChanged;
+            _activeClothesType.OnValueChanged -= ActiveClothesTypeChanged;
+        }
+
+        private void ActiveClothesTypeChanged(ClothesType obj)
+        {
+            _activeClothesItemWardrobe.SetValue(null);
         }
 
         private void ActiveClothesItemWardrobeChanged(ClothesItem activeWardrobeItem)

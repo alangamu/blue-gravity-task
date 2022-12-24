@@ -1,8 +1,9 @@
-﻿using BlueGravity.Scripts.Interfaces;
+﻿using BlueGravityTest.Scripts.Interfaces;
+using BlueGravityTest.Scripts.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class ButtonItemDisplay : MonoBehaviour, IItemDisplay
     {

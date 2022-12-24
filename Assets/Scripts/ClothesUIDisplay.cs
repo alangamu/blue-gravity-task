@@ -1,8 +1,8 @@
-﻿using BlueGravity.Scripts.Interfaces;
+﻿using BlueGravityTest.Scripts.Interfaces;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BlueGravity.Scripts.ScriptableObjects
+namespace BlueGravityTest.Scripts.ScriptableObjects
 {
     public class ClothesUIDisplay : MonoBehaviour
     {

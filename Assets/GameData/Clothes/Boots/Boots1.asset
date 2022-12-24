@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Boots1
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 6fa8902135d83ff49a376c05761b61d4, type: 3}
+  Icon: {fileID: 21300000, guid: 3140e9a3364cee4408bed6c739350b50, type: 3}
   ClothesSpriteMain: {fileID: 0}
   ClothesSpriteLeft: {fileID: 21300000, guid: 6fa8902135d83ff49a376c05761b61d4, type: 3}
   ClothesSpriteRight: {fileID: 21300000, guid: ed569bcf23ebe674180d6ae7a5d29495, type: 3}

@@ -1,8 +1,8 @@
-﻿using BlueGravity.Scripts.Interfaces;
-using BlueGravity.Scripts.ScriptableObjects;
+﻿using BlueGravityTest.Scripts.Interfaces;
+using BlueGravityTest.Scripts.ScriptableObjects;
 using UnityEngine;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class ClothesItemButtonSelector : MonoBehaviour
     {

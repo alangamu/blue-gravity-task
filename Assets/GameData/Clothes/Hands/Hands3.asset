@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Hands3
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 44fa20638679f684891b3b8f8ae65078, type: 3}
+  Icon: {fileID: 21300000, guid: 36900024a8e75f448983567e7e3e9a0d, type: 3}
   ClothesSpriteMain: {fileID: 0}
   ClothesSpriteLeft: {fileID: 21300000, guid: 44fa20638679f684891b3b8f8ae65078, type: 3}
   ClothesSpriteRight: {fileID: 21300000, guid: 30716b7cc770c7b46beff26e032f9ca7, type: 3}

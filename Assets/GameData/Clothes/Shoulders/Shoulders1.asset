@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Shoulders1
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: aa3c97470a4d5234ea50591a35ff9616, type: 3}
+  Icon: {fileID: 21300000, guid: 4303c2133c40c764999ec6d0a825fea1, type: 3}
   ClothesSpriteMain: {fileID: 0}
   ClothesSpriteLeft: {fileID: 21300000, guid: aa3c97470a4d5234ea50591a35ff9616, type: 3}
   ClothesSpriteRight: {fileID: 21300000, guid: 9af6155338c0e8f4ab8f5bb30b4c586e, type: 3}

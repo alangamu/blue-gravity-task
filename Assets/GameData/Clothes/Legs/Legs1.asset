@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Legs1
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 40e550cd3b539f14eb98d42b6769b592, type: 3}
+  Icon: {fileID: 21300000, guid: 730932e7baff5cc4bb25e1ab283a8ebd, type: 3}
   ClothesSpriteMain: {fileID: 0}
   ClothesSpriteLeft: {fileID: 21300000, guid: 40e550cd3b539f14eb98d42b6769b592, type: 3}
   ClothesSpriteRight: {fileID: 21300000, guid: 7b78357522a34d64bb8775b962b0deb0, type: 3}

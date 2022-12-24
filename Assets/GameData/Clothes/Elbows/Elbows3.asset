@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Elbows3
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 5e7415947ce8b1c47ade9a3d811da6cd, type: 3}
+  Icon: {fileID: 21300000, guid: d5b6f4efa5d49c54299ef555b9389a40, type: 3}
   ClothesSpriteMain: {fileID: 0}
   ClothesSpriteLeft: {fileID: 21300000, guid: 5e7415947ce8b1c47ade9a3d811da6cd, type: 3}
   ClothesSpriteRight: {fileID: 21300000, guid: c100ecf6707adf24083cea1e4063c659, type: 3}

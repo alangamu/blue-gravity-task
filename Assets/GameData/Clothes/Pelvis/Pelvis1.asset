@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Pelvis1
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: c376d5b80d02ffe4ba89fd03d60ec471, type: 3}
+  Icon: {fileID: 21300000, guid: 11361f8ee5057ad4a9dabe2ec8a04828, type: 3}
   ClothesSpriteMain: {fileID: 21300000, guid: c376d5b80d02ffe4ba89fd03d60ec471, type: 3}
   ClothesSpriteLeft: {fileID: 0}
   ClothesSpriteRight: {fileID: 0}

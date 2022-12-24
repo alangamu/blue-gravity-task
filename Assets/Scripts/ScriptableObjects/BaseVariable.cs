@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace BlueGravity.Scripts.ScriptableObjects
+namespace BlueGravityTest.Scripts.ScriptableObjects
 {
     public class BaseVariable<T> : ScriptableObject
     {

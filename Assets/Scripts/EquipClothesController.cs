@@ -1,8 +1,8 @@
-﻿using BlueGravity.Scripts.ScriptableObjects;
+﻿using BlueGravityTest.Scripts.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class EquipClothesController : MonoBehaviour
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using BlueGravityTest.Scripts.ScriptableObjects;
 
-namespace BlueGravity.Scripts.Interfaces
+namespace BlueGravityTest.Scripts.Interfaces
 {
     public interface IItemDisplay 
     {

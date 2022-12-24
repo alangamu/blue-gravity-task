@@ -1,7 +1,7 @@
-using BlueGravity.Scripts.ScriptableObjects;
+using BlueGravityTest.Scripts.ScriptableObjects;
 using UnityEngine;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class PlayerMovement : MonoBehaviour
     {
@@ -32,6 +32,7 @@ namespace BlueGravity.Scripts
             TryGetComponent(out _rb2d);
             TryGetComponent(out _animator);
             _canWalk = true;
+            _canWalkVariable.SetValue(true);
         }
 
         private void CanWalkVariableOnValueChanged(bool canWalk)

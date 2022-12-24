@@ -1,8 +1,8 @@
-﻿using BlueGravity.Scripts.ScriptableObjects;
+﻿using BlueGravityTest.Scripts.ScriptableObjects;
 using TMPro;
 using UnityEngine;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class CashDisplay : MonoBehaviour
     {

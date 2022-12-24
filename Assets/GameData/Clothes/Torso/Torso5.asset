@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Torso5
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 215dd6c48c732d744aecd29e7fecbbfa, type: 3}
-  ClothesSpriteMain: {fileID: 21300000, guid: 215dd6c48c732d744aecd29e7fecbbfa, type: 3}
+  Icon: {fileID: 21300000, guid: 8ff236600ff2a5d47bd033b8bd7f878b, type: 3}
+  ClothesSpriteMain: {fileID: 21300000, guid: fff248787aa9dc44d819b77a6686c0af, type: 3}
   ClothesSpriteLeft: {fileID: 0}
   ClothesSpriteRight: {fileID: 0}
   ClothesType: {fileID: 11400000, guid: c464c1534ffc31643b0adfef905f341e, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648635ee4a2a244489be1812615f0d7, type: 3}
   m_Name: Hood5
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 20eb058aea3c3a744bb5d47a1610550a, type: 3}
+  Icon: {fileID: 21300000, guid: 24f9bec3c31c82146af77962597bc84a, type: 3}
   ClothesSpriteMain: {fileID: 21300000, guid: 20eb058aea3c3a744bb5d47a1610550a, type: 3}
   ClothesSpriteLeft: {fileID: 0}
   ClothesSpriteRight: {fileID: 0}

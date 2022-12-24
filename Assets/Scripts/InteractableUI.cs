@@ -1,14 +1,11 @@
-﻿using BlueGravity.Scripts.ScriptableObjects;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace BlueGravity.Scripts
+namespace BlueGravityTest.Scripts
 {
     public class InteractableUI : MonoBehaviour
     {
         [SerializeField]
         private Transform _uiRoot;
-        [SerializeField]
-        private BoolVariable _canWalkVariable;
 
         private bool _isOn = false;
 
@@ -33,7 +30,6 @@ namespace BlueGravity.Scripts
             if (_isOn)
             {
                 _uiRoot.gameObject.SetActive(true);
-                _canWalkVariable.SetValue(false);
             }
         }
     }

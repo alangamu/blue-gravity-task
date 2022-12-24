@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BlueGravity.Scripts.ScriptableObjects
+namespace BlueGravityTest.Scripts.ScriptableObjects
 {
     [CreateAssetMenu(menuName = "Lists/Cloth")]
     public class ClothesList : ScriptableObject
